@@ -1,0 +1,41 @@
+[
+  {
+    "shoes": [
+      {
+        "id": "1",
+        "company": "Nike",
+        "type": "AirJordan",
+        "size": 45,
+        "price": 119
+      },
+      {
+        "id": "2",
+        "company": "Adidas",
+        "type": "Hipster",
+        "size": 40,
+        "price": 123
+      },
+      {
+        "id": "3",
+        "company": "Puma",
+        "type": "Shoo",
+        "size": 38,
+        "price": 153
+      },
+      {
+        "id": "4",
+        "company": "Reebok",
+        "type": "Lifestyle",
+        "size": 42,
+        "price": 234
+      },
+      {
+        "id": "5",
+        "company": "Boss",
+        "type": "Boomerang",
+        "size": 41,
+        "price": 156
+      }
+    ]
+  }
+]

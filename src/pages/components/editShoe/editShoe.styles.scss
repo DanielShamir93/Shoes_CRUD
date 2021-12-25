@@ -1,0 +1,12 @@
+.edit-shoe {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vmin;
+
+    .edit-shoe-details div {
+        padding: 2vh 0;
+    }
+}

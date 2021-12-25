@@ -1,0 +1,4 @@
+const GET_DATA = "GET_DATA";
+const DATA_FILTER = "DATA_FILTER";
+
+export { GET_DATA, DATA_FILTER };
