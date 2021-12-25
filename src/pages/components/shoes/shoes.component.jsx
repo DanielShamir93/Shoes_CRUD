@@ -26,7 +26,7 @@ export default function Shoes() {
     }, []);
 
     const renderItems = () => {
-        const shoes = shoesData.filter((shoe) => shoe.company.includes(filterState));
+        const shoes = shoesData.filter((shoe) => {return shoe.company.toLowerCase().includes(filterState.toLowerCase())});
         return shoes.map((shoe) => {
             return <Shoe key={shoe.id} id={shoe.id} />
         })
