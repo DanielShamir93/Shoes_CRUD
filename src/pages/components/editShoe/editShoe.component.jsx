@@ -25,7 +25,7 @@ export default function EditShoe() {
             const currentShoe = shoesArray.find((shoe) => shoe.id === id);
             setShoe(currentShoe);
         }
-    }, [shoeUpdated, id]);
+    }, [shoeUpdated, id, shoesArray]);
 
     const setValue = (e) => {
         const shoeDetails = shoe;

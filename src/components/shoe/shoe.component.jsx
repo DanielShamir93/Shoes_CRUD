@@ -13,7 +13,7 @@ export default function Shoe({ id }) {
 
     useEffect(() => {
         setShoe(shoesArray.find((shoe) => shoe.id === id));
-    }, [shoeDeleted]);
+    }, [shoeDeleted, id, shoesArray]);
 
     const deleteDataFromApi = async () => {
         try {
