@@ -30,7 +30,7 @@ export default function Shoe({ id }) {
         return (
             <div className="shoe">
                 <div className="shoe-content">
-                    <img className="shoe-image" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1556226/nike-sneaker-clipart-md.png" alt="image" />
+                    <img className="shoe-image" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1556226/nike-sneaker-clipart-md.png" alt="shoe" />
                     <Link to={`edit/${shoe.id}`} style={{textDecoration:"none"}}>
                         <div className="shoe-details">
                             <p>{`Company: ${shoe.company}`}</p>

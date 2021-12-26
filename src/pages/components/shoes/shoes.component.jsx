@@ -23,7 +23,7 @@ export default function Shoes() {
             }
         })
         getDataFromApi()
-    }, []);
+    });
 
     const renderItems = () => {
         const shoes = shoesData.filter((shoe) => {return shoe.company.toLowerCase().includes(filterState.toLowerCase())});
